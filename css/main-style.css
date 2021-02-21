@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.mainLink{
+    display: inline-block;
+    color: #563d7c;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    /* letter-spacing: 1px; */
+    /* font-family: Montserrat; */
+    border: 2px solid #563d7c;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+    box-shadow: 0px 2px 10px rgba(0,0,0,.25);
+}
+.mainLink:hover{
+    text-decoration: none;
+    background-color: #563d7c;
+    color: #ffffff;
+    transition-duration: 0.4s;
+}
+
+/* navbar start */
+.headerSection{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.navbar{
+    background-color: #563d7c;
+    box-shadow: 0px 2px 10px rgba(0,0,0,.25);
+}
+.navbar .navbar-brand{
+    font-size: 27px;
+    font-weight: bold;
+    color: #d3dae2;
+    text-transform: uppercase;
+}
+.navbar .nav-item .nav-link{
+    margin-right: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    transition-duration: 0.4s;
+}
+.navbar .nav-item .nav-link:hover{
+    color: black;
+    transition-duration: 0.4s;
+}
+/* navbar end */
+
+
+
+
